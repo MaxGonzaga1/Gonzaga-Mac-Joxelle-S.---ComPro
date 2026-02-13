@@ -2,16 +2,16 @@
 
 #stored credentials
 name = "Mac Gonzaga"
-age = 19
+password = "user1234"
 
-#input name and age from user
+#input name and password from user
 name_input = input("Enter your name: ")
-age_input = int(input("Enter your age: "))
+password_input = input("Enter your password: ")
 
 #check if the input matches the stored credentials
-if name_input == name and age_input == age:
+if name_input == name and password_input == password:
     print("Log in successful!")
 else:
-    print("Log in failed. Please check your name and age.")
+    print("Log in failed. Please check your name and password.")
 
 #End of program
